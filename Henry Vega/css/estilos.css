@@ -1,0 +1,40 @@
+
+
+
+body{
+    background-color: #e6e6e6;
+}
+
+.barra-nav{
+    background-color: skyblue;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contenedor-articulos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenedor-articulos article{
+    height: 50% ;
+    background-color: #fff;
+    padding: 10px;
+}
+
+
+
+
+
+.pie-pagina{
+    background-color: black;
+    color: #fff;
+    clear: both;
+    text-align: center;
+}
